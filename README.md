@@ -20,16 +20,19 @@ You can install the necessary libraries using pip:
 
 ```bash
 pip install beautifulsoup4 requests
+```
 
 # Project Structure
 Your project directory should be structured as follows:
 
+```
 iNaturalist-webscraper/
 ├── data/
 │   ├── websites/
 │   └── <taxon_id>/
 ├── scraper.py
 └── README.md
+```
 
 - data/websites/ will contain the HTML files of the web pages we scrape.
 - data/<taxon_id>/ will contain the downloaded images and their metadata for each taxon.
